@@ -11,9 +11,9 @@ const data = [
   
   // 2. Add Data
   function addData() {
-    // const name = prompt("Enter name");
-    // const age = parseInt(prompt("Enter age"));
-    // const profession = prompt("Enter Profession");
+    const name = prompt("Enter name");
+    const age = parseInt(prompt("Enter age"));
+    const profession = prompt("Enter Profession");
     if(name && !isNaN(age) && profession){
     const newdata={
         name,
